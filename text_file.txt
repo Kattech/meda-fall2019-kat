@@ -1,3 +1,3 @@
 1) The is my first sentence.
 2) This is my second sentence.
-Git 
+3) This is my third sentence.

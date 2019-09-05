@@ -1,21 +1,24 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
 
-
-
-
 <title> Layout 2</title>
 
+ <style>
 
-    <style>
+    body{
+        margin: 0;
+    }
+
         #container {
             background-color:lightblue;
             padding-top: 20px;
+            overflow: auto;
+            width: 800px;
+            margin: 0 auto;
+
             
         }
         #header {
@@ -24,18 +27,30 @@
             /* MARGIN WITH A VALUE GOES ALL AROUND. YET MARGIN-TOP: 0 OVERRIDES THE 20PX. */ 
             margin: 20px;
             margin-top: 0;
+            
+           
         }
 
         #main {
             height: 700px;
             background-color: whitesmoke;
             margin: 20px;
+         
         }
 
         #footer {
             height: 300px;
             background-color: whitesmoke;
             margin: 20px;
+            
+        }
+        /* SELECTING MULTIPLE ELEMENTS FOR THE SAME RULES. */
+        #header, #main, # footer {
+
+        }
+
+        /* SELECTING ELEMENTS IN A SPECIFIC HEIRARCHY*/
+        body #main {
             
         }
     </style>

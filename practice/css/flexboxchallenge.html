@@ -11,28 +11,40 @@
 <style>
     #flex-container {
         display: flex;
-        border: solid 1px red; 
-        flex-wrap: wrap;
+        /* SHORT HAND FOR BORDER WITH ALL 3 CHARACTERISTICS CAN BE SIMPLIFIED */
         /* border-width: */
         /* border-style: */
         /* border-color */
+        border: solid 1px red; 
+        flex-wrap: wrap;
+       
     }
 /* ANOTHER WAY OF EXPRESSING THE DIVS SINCE THEY ALL HAVE THE SAME ATTRIBUTES */
-#box1, #box2, #box3, #box4 { 
-    height: 396px;
-    width: 200px;
-    border: dashed 2px green;
-    flex-grow: 1; 
-    margin: 20px;
+    #box1, #box2, #box3, #box4 { 
+         height: 396px;
+         width: 200px;
+         border: dashed 2px green;
+         flex-grow: 1; 
+        margin: 20px;
 
 }
 
-#box2 {
-   flex-grow: 3; 
+    #box2 {
+         flex-grow: 3; 
+    }
+
+   #footer {
+        display: flex;    
+        border: solid 1px red; 
+        flex-wrap: wrap;
    }
-
-  
-
+   #box5, #box6, #box7, { 
+         height: 396px;
+         width: 200px;
+         border: dashed 2px green;
+         flex-grow: 1; 
+        margin: 20px;
+   }
 
 
 </style>

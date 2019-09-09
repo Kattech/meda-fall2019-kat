@@ -4,15 +4,54 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <title>CSS Flexbox</title>
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+<style>
+
+    #container {
+        background-color: fuchsia;
+        /* height: 400px; */
+        display: flex;
+        flex-direction: column-reverse;
+    }
+#box1, #box2, #box3 {
+    background-color: cyan;
+    height: 380px;
+    width: 200px;
+    margin: 10px;
+}
+
+#box1 {
+    flex-grow: 1;
+   
+ 
+}
+#box2 {
+    flex-grow: 2;
+   
+}
+#box3 {
+    flex-grow: 1;
+   
+}
+
+
+</style>
+
 
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+ <div id="container">
+
+    <div id="box1"><h1>Box 1</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, dignissimos culpa architecto minus ea quisquam! Accusantium nisi debitis illo similique, ipsam consequatur deleniti eum libero, inventore quod, necessitatibus id qui!</p></div>
+
+    <div id= "box2"><h1> Box 2</h1></div>
+
+    <div id= "box3"><h1> Box 3</h1></div>
+
+ </div>
+
+
 </body>
 </html>

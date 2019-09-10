@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+<title> EXTERNALLY LINKED CSS FILES </title>
+<!-- LINK ELEMENTS belong in the HEAD and needs two attributes REL and HREF.
+REL- relationship of file you are linking to  HREF is whenre the file is located-->
+<link rel="stylesheet" href="reset.css" type="text/css">
+<link rel="stylesheet" href="external_1.css"/>
+
+
+
+<style>
+
+h1 {
+    font-size: 75px;
+}
+</style>
+</head>
+
+
+
+<body id="firstpage">
+
+    <div id="container">
+        <header>
+            <h1>Welcome to this practice webpage.</h1>
+        </header>
+
+        <main> 
+            <!-- INLINE CSS EXAMPLE -->
+            <p style= "font-family: 'Helvetica', sans-serif; font-size: 50px; !important; font-size: 100px;"> This is the main text of the website, it should be really long</p>
+            <h1>This is after the long paragraph</h1>
+            <p id="special">This paragraph is special</p>
+            
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2019 Kat</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>

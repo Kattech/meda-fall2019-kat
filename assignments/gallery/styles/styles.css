@@ -25,7 +25,6 @@ header {
 /* Main START */
 main {
     background-color: whitesmoke;
-    height: 500px;
     padding-top: 10px;
 }
 
@@ -33,16 +32,31 @@ main {
     background-color: peachpuff;
     height: 300px;
     margin: 0 10px 10px 10px;
+    text-align: center;
     padding-bottom: 20px;
 }
 
 #main-gallery > div {
     background-color: white;
-    width: 30%;
+    width: 28%;
     height: 100%;
     display: inline-block;
+    margin: 1%; 
+}
+
+#flexbox-gallery {
+    display: flex;
+    height: 300px;
+    background-color: powderblue;
+    margin: 0 10px;
+}
+
+#flexbox-gallery div {
+    flex-grow: 1;
+    background-color: white;
     margin: 10px;
 }
+
 /* Main END */
 
 /* Footer START */

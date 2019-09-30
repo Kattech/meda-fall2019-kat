@@ -16,20 +16,20 @@ function myFunction() {
     console.log("This is line 3.");
     
 }
-
-number;
-
-myFunction();
-myFunction();
-myFunction();
-myFunction();
-myFunction();
 myFunction();
 
-// Create a fx that consolelogs 4 things division, mutiplication, addition and subtraction and console log the value of it.
+
+
+// Create a fx that consolelogs 4 things: division, mutiplication, addition and subtraction and console log the value of it.
 
 var number = 2;
+// Call the fx: (spits out the math in the console)
+mathFunctions()
 
+// parameters variable specifically used in the function
+
+
+// Defining the fx:
 function mathFunctions() {
     console.log(2*2);
     console.log(2/2);
@@ -37,3 +37,17 @@ function mathFunctions() {
     console.log(2-2);
 }
 
+mathify(100);
+mathify(1000);
+
+
+
+
+function mathify( firstNumber ){
+    console.log(firstNumber +1);
+    console.log(firstNumber -1);
+    console.log(firstNumber +1);
+    console.log(firstNumber +1);
+
+
+}

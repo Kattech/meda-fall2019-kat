@@ -47,4 +47,46 @@ console.log(range);
 var wholeNumber = Math.ceil(range);
 
 // Send wholeNumber value to console.
+
 console.log(wholeNumber);
+
+// ****[LUNCH BREAK]****
+
+// parseInt attempts to convert a Datatype String into a Datatype number. Returns a number or a NaN 
+parseInt("1000"); // Number 1000
+parseInt("Hello");  // probably NaN
+parseInt("100Hello"); // Number 100
+parseInt("hello100"); // NaN
+
+parseFloat(); // Decimal point only goes up to 32 bits
+parseFloat("1000.303000"); // Number 1000.303000 Looks for a period and includes any number after IN A STRING
+parseInt("1000.303000"); // Number 1000 String to a number. STOPS once it sees the decimal point.
+
+var floatNumber= parseFloat("1000.303000");
+parseInt("1000.303000");
+console.log(floatNumber);
+
+// KIM: you can reuse anything by holding it in a variable
+
+// ex of complx code that generates a number between 1 and 10 and sends it directly to the console.
+console.log( Math.floor( (  Math.random() * 10 ) +1 ) );
+
+/* charAt():
+ *** KIM: that the first letter is considered letter 0 and progresses accordingly **** 
+ *** KIM: SPACE IS CONSIDERED A CHARACTER!!!! ****
+ Ex: */
+"Hello World!".charAt (4);
+
+/* Ex:  Find the position starting at 0 and sends that character to the console.*/
+"Hello World!".charAt (7);
+
+
+// indexOf():
+// Find the character in the string, and returns the position number and sends it to the console.
+console.log( "Hello World!".indexOf("W") );
+
+//Find the character in the string, and return the position number and send it to the console. -1 means that it could not be found 
+console.log ("Hello World!".indexOf("h"));
+
+
+

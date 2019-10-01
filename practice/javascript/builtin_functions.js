@@ -85,8 +85,8 @@ console.log( Math.floor( (  Math.random() * 10 ) +1 ) );
 // Find the character in the string, and returns the position number and sends it to the console.
 console.log( "Hello World!".indexOf("W") );
 
-//Find the character in the string, and return the position number and send it to the console. -1 means that it could not be found 
+//Find the character in the string, and return the position number and send it to the console. 
 console.log ("Hello World!".indexOf("h"));
 
-
+// -1 means that it could not be found on the above example. It's negative because the first item will always start at 0.
 

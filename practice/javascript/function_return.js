@@ -16,7 +16,7 @@ myFunction();
 
 
 
-// Practice: create 3 different fx ea one returns a different datatype, then console.log the results of the fx
+// PRACTICE CHALLENGE: create 3 different fx ea one returns a different datatype, then console.log the results of the fx
 // console log should be outside of the function
 
 function goodbye(){

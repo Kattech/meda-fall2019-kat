@@ -15,7 +15,7 @@ var aVariable = true;
 var counter = 0;
 // STEP 3: create a variable named "counter". so it increase it by 1 set it equal to 0
 
-// STEP 2: Write out the Do while loop 
+// STEP 2: Write out the Do While Loop 
 do {
     //STEP 4: Grab the value of counter (after the =), then add a 1 to it, finally store the results back into counter (before the =).
    counter = counter + 1; // counter++
@@ -30,6 +30,6 @@ do {
 // STEP 5: run the debug console to see the counter...
 
 
-// 
+
 
 

@@ -41,6 +41,7 @@ weekNames.shift();
 console.log(weekNames);
 
 //TO RESTORE AN ARRAY USING ARRAY METHODS:
+
 //****KIM that .push() and .unshift() NEED ARGUMENTS IN THE PARENTHSIS */
 //since our weeknames now starts at Wednesday, you need to .unshift(); Tuesday and then .unshift(); Monday
 weekNames.unshift("Tuesday");
@@ -64,5 +65,51 @@ weekNames.unshift(day);
 console.log(weekNames);
 
 //TO WRITE THE SOLUTION ON ONE LINE- advanced- but don't write this way
-weekNames.unshift( weekNames.pop() );
+//weekNames.unshift( weekNames.pop() );
+//--END CHALLENGE--
+
+// [ ----LUNCH BREAK----]
+
+
+
+//ARRAY METHOD: .splice() designed to extract a part of an array.
+//index you want to start. if you give it a negative number it starts from the end
+//start at index 3 and get rid of 1 item
+weekNames.splice(3, 1);
+console.log(weekNames);
+
+
+weekNames.splice(3, 2);
+console.log(weekNames);
+
+//this syntax returns the items that were removed as opposed to show what remains in the array
+var splitArray= weekNames.splice(3,2);
+console.log(splitArray);
+
+//Assigning values to the array:
+//add values to array manually by specifying the index number.
+splitArray[2]= "Friday";
+console.log(splitArray);
+
+//Update values to array by specifiying the index number
+splitArray[0] ="Whensday";
+console.log(splitArray);
+
+splitArray[10] = "Hiddenday";
+console.log(splitArray);
+
+
+//HOW TO HOOK UP AN ARRAY TO A FOR LOOP
+//ARRAYS & LOOPS
+var names = ["Alpha", "Sam", "Max", "George", "guillermo", "horacio", "batman", "bill", "mackaw", "robin"];
+
+for (var counter= 0; counter < 10; counter= counter + 1){
+    console.log("Hello " + names[counter] + "!"); //add names[counter] in the [] to run and print every name
+}
+
+
+// .length can be applied to strings and arrays
+/* another way of writing it:
+    for (var i= 0; i< 10; i++) {}
+ */
 

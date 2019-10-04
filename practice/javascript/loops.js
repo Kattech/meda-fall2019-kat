@@ -38,9 +38,12 @@ do {
 // STEP 1: Write DO WHILE LOOP
 // STEP 2: Write a variable
 // STEP 3: Add If statement
-// IF If statement is outside the loop then it only runs 1x
+// IF If statement is outside the loop then it only runs 1x. If it is inside the loop it will ask the question as many times as the loop runs.
 // IF var loopContinue is equal to true it will continue to run
 //STEP 4: Add an increment i= i+1 before the If statement. (you could add it after you test it)
+// STEP 5: Console.log the character pulled from the string
+// STEP 6: Another If statement to see if you stopped the loop.
+
 var stringToTest = "This has to be a really long sentence so we have a chance to count a character twice.";
 var i = 0;
 var loopContinue = true;
